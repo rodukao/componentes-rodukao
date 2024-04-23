@@ -1,0 +1,22 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-input input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 3px 0;
+}
+
+.input-texto input.invalid {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.75rem;
+    margin: 2px 0 10px 0;
+}
